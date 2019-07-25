@@ -1,10 +1,9 @@
 <template>
-<header>
+<div class="profile">
     <nav>
-      <router-link to="/">Home</router-link>
-      <router-link to="/profile">Profile</router-link>
+      <p>プロフィール</p>
     </nav>
-  </header>
+  </div>
 </template>
 
 <script>
@@ -14,7 +13,4 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-header {
-  background-color: green;
-}
 </style>
