@@ -20,7 +20,14 @@ export default {
 </script>
 
 <style>
-#app {
+* {
+  box-sizing: border-box;
   margin: 0;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 </style>

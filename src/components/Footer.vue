@@ -15,6 +15,7 @@
 footer {
   background-color: green;
   text-align: center;
+  margin-top: auto;
 }
 
 </style>
