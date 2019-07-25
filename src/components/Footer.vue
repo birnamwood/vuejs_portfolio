@@ -1,9 +1,9 @@
 <template>
-<header>
+<footer>
     <nav>
-      <p>j.y 2019</P>
+      <p>© j.y 2019</P>
     </nav>
-  </header>
+  </footer>
 </template>
 
 <script>
@@ -12,5 +12,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+footer {
+  background-color: green;
+  text-align: center;
+}
 
 </style>
