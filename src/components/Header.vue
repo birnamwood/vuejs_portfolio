@@ -5,6 +5,7 @@
     <nav>
       <router-link to="/" class="menu">Home</router-link>
       <router-link to="/profile" class="menu">Profile</router-link>
+      <router-link to="/skill" class="menu">Skill</router-link>
     </nav>
   </header>
 </template>
