@@ -1,6 +1,6 @@
 <template>
 <header>
-   <router-link to="/" class="title">My Portfolio</router-link>
+   <router-link to="/" class="title">Portfolio</router-link>
 
     <nav>
       <router-link to="/" class="menu">Home</router-link>
@@ -17,6 +17,8 @@
 <style scoped>
 
 header {
+  font-family: fantasy;
+  padding:5px;
   background-color: rgb(218, 226, 218,0.7);
   width: 100%;
   font-size: 24px;
@@ -25,9 +27,8 @@ header {
   transform: translateY(-3px);
   box-sizing: border-box;
   border-radius: 6px;
-  padding: 0.5em 1em 0.5em;
+  padding: 1em 1em 0.5em;
   color: #0f2018;
-  font-weight: bold;
 }
 
 .title {
@@ -43,7 +44,7 @@ nav {
 .menu {
   color: inherit;
   text-decoration: none;
-  margin: 20px;
+  padding: 1em 1em 0.5em;
 }
 
 </style>
