@@ -13,7 +13,9 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 footer {
-  margin-top: auto;
+  bottom: 0;
+  position: fixed;
+  /* margin-top: auto; */
   background-color: rgb(218, 226, 218,0.7);
   width: 100%;
   font-size: 16px;
@@ -25,6 +27,7 @@ footer {
   padding: 0.5em 1em 0.5em;
   color: #0f2018;
   font-weight: bold;
+  font-family: fantasy;
 }
 
 </style>

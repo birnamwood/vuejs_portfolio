@@ -17,8 +17,9 @@
 <style scoped>
 
 header {
+  top: 0;
+  position: fixed;
   font-family: fantasy;
-  padding:5px;
   background-color: rgb(218, 226, 218,0.7);
   width: 100%;
   font-size: 24px;

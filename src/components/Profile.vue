@@ -1,8 +1,29 @@
 <template>
 <div class="profile">
-    <nav>
       <p>プロフィール</p>
-    </nav>
+      <br>
+      <p>fefefefe</p>
+      <br>
+      <br>
+            <br>
+      <br>      <br>
+      <br>      <br>
+      <br>      <br>
+      <br>      <br>
+      <br>      <br>
+      <br>      <br>
+      <br>      <br>
+      <br>      <br>
+      <br>
+      <p>mefmege</p>
+            <br>
+      <br>      <br>
+      <br>      <br>
+      <br>      <br>
+      <br>      <br>
+      <br>      <br>
+      <br>
+            <p>mefmege</p>
   </div>
 </template>
 

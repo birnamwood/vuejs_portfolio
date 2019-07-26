@@ -18,7 +18,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .mainview {
-  margin-bottom: auto;
   background-image: url("../assets/main.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -28,10 +27,11 @@ export default {
 #maintext {
   color: white;
   text-align: center;
-  margin: 50vh auto;
+  background-color: green;
+  margin-top: 40vh;
   display: inline-block;
   font-size: 36px;
+  font-family: fantasy;
   width: 100%;
-  height: 100%;
 }
 </style>
