@@ -1,8 +1,8 @@
 <template>
   <div class="main">
-    <div class="mainview">
-      <p class="maintext">{{message}}</p>
-    </div>
+      <div class="mainview">
+        <p class="maintext">{{message}}</p>
+       </div>
   </div>
 </template>
 
@@ -20,9 +20,15 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-.mainview {
-  position: relative;
+.main {
+  height: 100vh;
   width: 100%;
+  padding-top: 70px;
+  padding-bottom: 45px;
+  margin: auto;
+
+}
+.mainview {
   height: 100%;
   background-image: url("../assets/main.jpg");
   background-repeat: no-repeat;

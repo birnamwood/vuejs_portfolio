@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header/>
-    <router-view class="page"></router-view>
+    <router-view/>
     <Footer/>
   </div>
 </template>
@@ -31,9 +31,4 @@ export default {
   min-height: 100vh;
 }
 
-.page {
-  height: 100vh;
-  padding-top: 70px;
-  padding-bottom: 45px;
-}
 </style>
