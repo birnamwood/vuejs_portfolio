@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="mainview">
-      <p id="maintext">{{message}}</p>
+      <p class="maintext">{{message}}</p>
     </div>
   </div>
 </template>
@@ -19,23 +19,24 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
 .mainview {
+  position: relative;
   width: 100%;
   height: 100%;
   background-image: url("../assets/main.jpg");
-  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#maintext {
+.maintext {
+  width: 100%;
   color: white;
   text-align: center;
-  background-color: rgb(200,250,200,0.3);
-  display:inline-block;
-  margin-top: 45%;
+  background-color: rgb(200,250,200,0.5);
+  display: inline-block;
+  margin-top: 35vh;
   font-size: 36px;
   font-family: fantasy;
-  width: 100%;
 }
 </style>

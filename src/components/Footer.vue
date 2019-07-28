@@ -1,7 +1,7 @@
 <template>
 <footer>
     <nav>
-      <p>© j.y 2019</P>
+      <p>© 2019</P>
     </nav>
   </footer>
 </template>
@@ -15,7 +15,7 @@
 footer {
   bottom: 0;
   position: fixed;
-  /* margin-top: auto; */
+  margin-top: auto;
   background-color: rgb(218, 226, 218,0.7);
   width: 100%;
   font-size: 16px;

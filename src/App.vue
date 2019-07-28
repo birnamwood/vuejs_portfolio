@@ -32,7 +32,6 @@ export default {
 }
 
 .page {
-  display: block;
   height: 100vh;
   padding-top: 70px;
   padding-bottom: 45px;
