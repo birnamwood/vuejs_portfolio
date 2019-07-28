@@ -22,8 +22,6 @@ footer {
   text-align: center;
   box-shadow: 0 3px 0 0 #b4afaf, 0 1px 1px 0 #e9e9e9;
   transform: translateY(-3px);
-  box-sizing: border-box;
-  border-radius: 6px;
   padding: 0.5em 1em 0.5em;
   color: #0f2018;
   font-weight: bold;
