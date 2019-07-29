@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Mainview from '@/components/Mainview'
 import Profile from '@/components/Profile'
 import Skill from '@/components/Skill'
+import History from '@/components/History'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/skill',
       name: 'Skill',
       component: Skill,
+    },
+    {
+      path: '/history',
+      name: 'History',
+      component: History,
     },
   ]
 })

@@ -4,6 +4,7 @@
 
     <nav>
       <router-link to="/profile" class="menu">Profile</router-link>
+      <router-link to="/history" class="menu">History</router-link>
       <router-link to="/skill" class="menu">Skill</router-link>
     </nav>
   </header>
