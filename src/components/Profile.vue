@@ -65,6 +65,7 @@ export default {
 
 .profile-title {
   font-size: 60px;
+  /* background-color: lightblue; */
 }
 .profile-table {
   font-size:20px;
@@ -78,5 +79,7 @@ export default {
   border-collapse: collapse;
   padding: 10px;
 }
+
+
 
 </style>

@@ -41,10 +41,11 @@ export default {
 .skill-box {
   margin: auto;
   text-align: center;
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 .skill-title {
   font-size: 60px;
+  background-color: lightblue;
 }
 
 .skill-table {
