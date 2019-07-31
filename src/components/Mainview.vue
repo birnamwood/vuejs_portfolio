@@ -1,7 +1,9 @@
 <template>
   <div class="main">
       <div class="mainview">
-        <p class="maintext">{{message}}</p>
+        <transition appear>
+          <p  v-show="show" class="maintext">{{message}}</p>
+        </transition>
        </div>
   </div>
 </template>
@@ -11,11 +13,13 @@ export default {
   name: 'mainview',
   data() {
     return {
-      message: 'Welcome to My Portfolio.'
+      message: 'Welcome to My Portfolio.',
+      show: true,
     }
   }
 }
 </script>
+
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
@@ -44,5 +48,16 @@ export default {
   margin-top: 400px;
   font-size: 36px;
   font-family: fantasy;
+}
+
+.v-enter-active,
+.v-leave-active {
+      transition: 3s ease-out;
+}
+
+.v-enter,
+.v-leave-to {
+      opacity: 0;
+      transform: translateY(-100px)
 }
 </style>
