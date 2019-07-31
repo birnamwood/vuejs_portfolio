@@ -5,26 +5,12 @@
             <i class="fas fa-user-circle" > Profile</i>
           </div>
           <table class="profile-table">
-            <tr>
-              <td>{{name}}</td>
-            </tr>
-            <tr>
-              <td>{{age}}</td>
-            </tr>
-            <tr>
-              <td>{{birthplace}}</td>
-            </tr>
-            <tr>
-                <td>資格：　基本情報処理技術者
-                <br>　　：　3級知的財産管理技能士
-                <br>　　：　日商簿記2級
-              </td>
-            </tr>
-              <td>経歴：　2014年3月　京都産業大学　法学部卒業
-                <br>　　：　2019年4月　医療系企業に社内SEとして入社
-                <br>　　：　2019年4月　退職
-              </td>
-            </tr>
+            <tbody>
+              <tr><td>氏名</td><td>{{name}}</td></tr>
+              <tr><td>年齢</td><td>{{age}}</td></tr>
+              <tr><td>住所</td><td>{{address}}</td></tr>
+              <tr><td>趣味</td><td>{{hobby}}</td></tr>
+            </tbody>
           </table>
       </div>
   </div>
@@ -35,9 +21,10 @@ export default {
   name: 'profile',
   data() {
     return {
-      name: "氏名：　ｊ．ｙ",
-      age: "年齢：　29歳",
-      birthplace: "出身：　京都府長岡京市",
+      name: "ｊ．ｙ",
+      age: "29歳",
+      address: "京都府長岡京市",
+      hobby: "バイク、旅行",
     }
   }
 }
@@ -60,7 +47,7 @@ export default {
 .profile-box {
   margin: auto;
   text-align: center;
-  /* background-color: lightblue; */
+  width: 90%;
 }
 
 .profile-title {
@@ -68,18 +55,23 @@ export default {
   /* background-color: lightblue; */
 }
 .profile-table {
+   width: 100%;
   font-size:20px;
   text-align: left;
   margin: auto;
   padding-bottom: 50px;
+    border-collapse: collapse;
 }
 
 .profile-table td {
-  border-bottom: solid 1px;
-  border-collapse: collapse;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
   padding: 10px;
 }
 
+.profile-table tbody tr:nth-of-type(2n) {
+  background-color: lightblue;
+}
 
 
 </style>

@@ -2,25 +2,17 @@
   <div class="history">
       <div class="history-box">
           <div class="history-title">
-            <i class="fas fa-user-circle" > History</i>
+            <i class="fas fa-history"> History</i>
           </div>
           <table class="history-table">
-            <tr>
-              <td>{{name}}</td>
-            </tr>
-            <tr>
-              <td>{{age}}</td>
-            </tr>
-            <tr>
-              <td>{{birthplace}}</td>
-            </tr>
-            <tr>
-                <td>資格：　基本情報処理技術者
-              </td>
-            </tr>
-              <td>経歴：　2014年3月　京都産業大学　法学部卒業
-              </td>
-            </tr>
+            <thead>
+              <tr><th>年度</th><th>内容</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>2014年3月</td><td>京都産業大学　法学部卒業</td></tr>
+              <tr><td>2014年4月</td><td>医療系企業に入社</td></tr>
+              <tr><td>2019年4月まで</td><td>社内SEとして基幹システムの開発、保守・運用に携わる</td></tr>
+            </tbody>
           </table>
       </div>
   </div>
@@ -31,9 +23,7 @@ export default {
   name: 'history',
   data() {
     return {
-      name: "氏名：　ｊ．ｙ",
-      age: "年齢：　29歳",
-      birthplace: "出身：　京都府長岡京市",
+      // name: "氏名：　ｊ．ｙ",
     }
   }
 }
@@ -64,18 +54,22 @@ export default {
   /* background-color: lightblue; */
 }
 .history-table {
+  width: 90%;
+  border-collapse: collapse;
   font-size:20px;
   text-align: left;
   margin: auto;
-  padding-bottom: 50px;
 }
 
-.history-table td {
-  border-bottom: solid 1px;
-  border-collapse: collapse;
+.history-table th,.history-table td {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
   padding: 10px;
 }
 
+.history-table tbody tr:nth-of-type(2n+1) {
+  background-color: lightblue;
+}
 
 
 </style>
