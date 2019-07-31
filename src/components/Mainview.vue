@@ -13,7 +13,7 @@ export default {
   name: 'mainview',
   data() {
     return {
-      message: 'Welcome to My Portfolio.',
+      message: 'Welcome to My Portfolio',
       show: true,
     }
   }
@@ -52,12 +52,12 @@ export default {
 
 .v-enter-active,
 .v-leave-active {
-      transition: 3s ease-out;
+      transition: 5s ease-out;
 }
 
 .v-enter,
 .v-leave-to {
       opacity: 0;
-      transform: translateY(-100px)
+      transform: translateY(-100px);
 }
 </style>
