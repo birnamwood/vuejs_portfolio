@@ -10,8 +10,8 @@
             </thead>
             <tbody>
               <tr><td>2014年3月</td><td>京都産業大学　法学部卒業</td></tr>
-              <tr><td>2014年4月</td><td>医療系企業に入社</td></tr>
-              <tr><td>2019年4月まで</td><td>社内SEとして基幹システムの開発、保守・運用に携わる</td></tr>
+              <tr><td>2014年4月</td><td>医療系企業に入社　社内SEとして基幹システムの開発、保守・運用に携わる</td></tr>
+              <tr><td>2019年4月まで</td><td>退職</td></tr>
             </tbody>
           </table>
       </div>
@@ -36,14 +36,16 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .history {
-  height: 100vh;
+  height: 500px;
   width: 100%;
-  margin: auto;
 }
 
 .history-box {
+  padding-top: 100px;
+  padding-bottom: 100px;
   margin: auto;
   text-align: center;
+  height: 100%;
   /* background-color: lightblue; */
 }
 

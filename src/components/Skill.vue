@@ -31,15 +31,16 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .skill {
-  height: 100vh;
+  height: 500px;
   width: 100%;
-  padding-bottom: 45px;
-  margin: auto;
 }
 
 .skill-box {
   margin: auto;
   text-align: center;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
   /* background-color: lightblue; */
 }
 .skill-title {

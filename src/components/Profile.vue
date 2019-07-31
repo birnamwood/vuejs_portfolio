@@ -37,15 +37,16 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .profile {
-  height: 100vh;
+  height: 500px;;
   width: 100%;
-  margin: auto;
 }
 
 .profile-box {
+  padding-top: 100px;
+  padding-bottom: 100px;
   margin: auto;
   text-align: center;
-  width: 90%;
+  height: 100%;
 }
 
 .profile-title {
@@ -53,7 +54,7 @@ export default {
   /* background-color: lightblue; */
 }
 .profile-table {
-  width: 100%;
+  width: 90%;
   font-size:20px;
   text-align: left;
   margin: auto;

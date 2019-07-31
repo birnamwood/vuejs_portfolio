@@ -21,7 +21,7 @@ export default {
 <style scoped>
 
 .main {
-  height: 100vh;
+  height: 1000px;
   width: 100%;
   padding-top: 70px;
   padding-bottom: 45px;
@@ -41,7 +41,7 @@ export default {
   text-align: center;
   background-color: rgb(200,250,200,0.5);
   display: inline-block;
-  margin-top: 35vh;
+  margin-top: 400px;
   font-size: 36px;
   font-family: fantasy;
 }
