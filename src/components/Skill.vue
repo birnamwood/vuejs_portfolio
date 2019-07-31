@@ -31,9 +31,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .skill {
-  height: 100%;
+  height: 100vh;
   width: 100%;
-  padding-top: 70px;
   padding-bottom: 45px;
   margin: auto;
 }

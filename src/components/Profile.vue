@@ -37,10 +37,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .profile {
-  height: 100%;
+  height: 100vh;
   width: 100%;
-  padding-top: 70px;
-  padding-bottom: 45px;
   margin: auto;
 }
 
@@ -55,12 +53,12 @@ export default {
   /* background-color: lightblue; */
 }
 .profile-table {
-   width: 100%;
+  width: 100%;
   font-size:20px;
   text-align: left;
   margin: auto;
   padding-bottom: 50px;
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 .profile-table td {

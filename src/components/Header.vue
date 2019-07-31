@@ -1,16 +1,46 @@
 <template>
 <header>
-   <router-link to="/" class="title">Portfolio</router-link>
+   <a href="/" @click="titleclick" class="title">Portfolio</a>
 
     <nav>
-      <router-link to="/profile" class="menu">Profile</router-link>
-      <router-link to="/history" class="menu">History</router-link>
-      <router-link to="/skill" class="menu">Skill</router-link>
+      <a href="/" @click="profileclick" class="menu">Profile</a>
+      <a href="/" @click="historyclick" class="menu">History</a>
+      <a href="/" @click="skillclick" class="menu">Skill</a>
     </nav>
   </header>
 </template>
 
 <script>
+export default {
+  methods: {
+    titleclick() {
+      event.preventDefault()
+      this.$SmoothScroll(
+        document.querySelector('#mainview')
+      )
+    },
+    profileclick() {
+      event.preventDefault()
+      this.$SmoothScroll(
+        document.querySelector('#profile')
+      )
+    },
+    historyclick() {
+      event.preventDefault()
+      this.$SmoothScroll(
+        document.querySelector('#history')
+      )
+    },
+    skillclick() {
+      event.preventDefault()
+      this.$SmoothScroll(
+        document.querySelector('#skill')
+      )
+    }
+
+
+  }
+}
 
 </script>
 
