@@ -1,11 +1,12 @@
 <template>
 <header>
-   <a href="/" @click="titleclick" class="title">Portfolio</a>
+   <a href="/" @click="titleclick" class="title">Top</a>
 
     <nav>
       <a href="/" @click="profileclick" class="menu">Profile</a>
       <a href="/" @click="historyclick" class="menu">History</a>
       <a href="/" @click="skillclick" class="menu">Skill</a>
+      <a href="/" @click="workclick" class="menu">Work</a>
     </nav>
   </header>
 </template>
@@ -36,7 +37,13 @@ export default {
       this.$SmoothScroll(
         document.querySelector('#skill')
       )
-    }
+    },
+    workclick() {
+      event.preventDefault()
+      this.$SmoothScroll(
+        document.querySelector('#work')
+      )
+    },
 
 
   }

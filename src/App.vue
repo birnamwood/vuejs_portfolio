@@ -5,6 +5,7 @@
         <Profile id="profile"/>
         <History id="history"/>
         <Skill id="skill"/>
+        <Work id="work"/>
     <Footer/>
   </div>
 </template>
@@ -16,6 +17,7 @@ import Mainview from './components/Mainview'
 import Profile from './components/Profile'
 import History from './components/History'
 import Skill from './components/Skill'
+import Work from './components/Work'
 
 export default {
   name: 'App',
@@ -26,6 +28,7 @@ export default {
     Profile,
     History,
     Skill,
+    Work,
   },
 }
 </script>
