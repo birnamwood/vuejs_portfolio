@@ -36,7 +36,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .history {
-  height: 500px;
   width: 100%;
 }
 
@@ -64,7 +63,7 @@ export default {
 .history-table th,.history-table td {
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
-  padding: 10px;
+  padding: 15px;
 }
 
 .history-table tbody tr:nth-of-type(2n+1) {

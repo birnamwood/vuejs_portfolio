@@ -37,7 +37,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .profile {
-  height: 500px;;
   width: 100%;
 }
 
@@ -65,7 +64,7 @@ export default {
 .profile-table td {
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
-  padding: 10px;
+  padding: 15px;
 }
 
 .profile-table tbody tr:nth-of-type(2n) {
