@@ -5,18 +5,33 @@
             <i class="fas fa-tools" > Work</i>
           </div>
           <!-- ボックス -->
+          <Workbox v-for="work in works" :key="work.name" :item="work" />
       </div>
   </div>
 </template>
 
 <script>
+import Workbox from './Workbox'
+
 export default {
   name: 'work',
+  components: {
+    Workbox,
+  },
   data() {
     return {
       works: [
-        { name: "ポートフォリオ",
-          image: "",
+        {
+          name: "ポートフォリオ",
+          image: "../assets/portfolio.png",
+          url: "https://localhost:8080",
+          src: "https://github.com/birnamwood/vuejs_portfolio",
+          skill: "HTTPS/CSS/JS/Vue.js",
+          text: "ポートフォリオ公開用",
+        },
+        {
+          name: "検査結果照会システム",
+          image: "../assets/portfolio.png",
           url: "",
           src: "",
           skill: "",
@@ -49,4 +64,5 @@ export default {
 .work-title {
   font-size: 60px;
 }
+
 </style>
