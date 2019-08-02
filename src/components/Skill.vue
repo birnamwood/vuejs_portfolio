@@ -4,10 +4,14 @@
           <div class="skill-title">
             <i class="fas fa-tools" > Skill</i>
           </div>
+          <!--table-->
+          <h2 class="qualification-title">資格</h2>
           <table class="skill-table">
-            <tr>
-              <td>{{qualification}}</td>
-            </tr>
+            <ul class="qualification-list">
+              <li>{{qualification}}</li>
+              <li>{{qualification2}}</li>
+              <li>{{qualification3}}</li>
+            </ul>
           </table>
       </div>
   </div>
@@ -18,7 +22,9 @@ export default {
   name: 'skill',
   data() {
     return {
-      qualification: "資格：　基本情報",
+      qualification: "基本情報処理技術者",
+      qualification2: "3級知的財産管理技能士",
+      qualification3: "日商簿記2級",
     }
   }
 }
@@ -33,6 +39,7 @@ export default {
 .skill {
   height: 500px;
   width: 100%;
+  padding-bottom: 50px;
 }
 
 .skill-box {
@@ -41,24 +48,27 @@ export default {
   height: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
-  /* background-color: lightblue; */
+  background-color: lightblue;
 }
 .skill-title {
   font-size: 60px;
-  background-color: lightblue;
 }
 
 .skill-table {
   font-size:20px;
   text-align: left;
   margin: auto;
-  padding-bottom: 50px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px gray;
 }
-
-.skill-table td {
-  border-bottom: solid 1px;
-  border-collapse: collapse;
+.qualification-list {
+  list-style: none;
   padding: 10px;
 }
+.qualification-list li {
+  padding: 5px;
+}
+
 
 </style>
