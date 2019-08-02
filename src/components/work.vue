@@ -12,6 +12,8 @@
 
 <script>
 import Workbox from './Workbox'
+import PortfolioImage from "@/assets/portfolio.png"
+import KensaImage from "@/assets/kensa.png"
 
 export default {
   name: 'work',
@@ -23,15 +25,15 @@ export default {
       works: [
         {
           name: "ポートフォリオ",
-          image: "../assets/portfolio.png",
-          url: "https://localhost:8080",
+          image: PortfolioImage,
+          url: "localhost:8080",
           src: "https://github.com/birnamwood/vuejs_portfolio",
-          skill: "HTTPS/CSS/JS/Vue.js",
-          text: "ポートフォリオ公開用",
+          skill: "HTTPS/CSS/Vue.js",
+          text: "ポートフォリオ公開用サイトです。",
         },
         {
           name: "検査結果照会システム",
-          image: "../assets/portfolio.png",
+          image: KensaImage,
           url: "",
           src: "",
           skill: "",
