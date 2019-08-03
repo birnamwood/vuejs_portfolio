@@ -34,10 +34,10 @@ export default {
         {
           name: "検査結果照会システム",
           image: KensaImage,
-          url: "",
-          src: "",
-          skill: "",
-          text: "",
+          url: "非公開",
+          src: "社外秘",
+          skill: "RPG Ⅳ/LongRange/iPhone",
+          text: "前職で作成した、iPhoneで臨床検査の結果を照会するシステムです。設計からリリースまで一人で担当しました。",
         },
       ],
     }
