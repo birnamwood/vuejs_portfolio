@@ -6,10 +6,10 @@
         <img v-bind:src= "item.image" />
       </div>
       <div class="content">
-        URL: <a v-bind:href="item.url">{{item.url}}</a><br>
-        SOURCE: <a v-bind:href="item.src">{{item.src}}</a><br>
+        <p>URL: <a v-bind:href="item.url">{{item.url}}</a><br></p>
+        <p>SOURCE: <a v-bind:href="item.src">Github</a><br></p>
         <br>
-        <p>使用言語：{{item.skill}}</p><br>
+        <p>使用言語等：{{item.skill}}</p><br>
         <p>{{item.text}}</p>
       </div>
     </div>
@@ -60,9 +60,10 @@ export default {
 
 .content {
   margin: auto;
-  float: left;
+  /* float: left; */
   width: 50%;
   height: 100%;
   text-align: left;
+  display: inline-block;
 }
 </style>
