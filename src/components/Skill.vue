@@ -4,16 +4,20 @@
           <div class="skill-title">
             <i class="fas fa-tools" > Skill</i>
           </div>
-          <!--table-->
-          <h2 class="qualification-title">資格</h2>
-          <table class="qualification-table">
-            <ul class="qualification-list">
-              <li v-for="(qualification,index) in qualifications" :key="index">
-                {{qualification.name}}
-              </li>
-            </ul>
-          </table>
 
+          <carousel :per-page="1">
+            <slide>
+              <h2 class="qualification-title">資格</h2>
+                <table class="qualification-table">
+                  <ul class="qualification-list">
+                    <li v-for="(qualification,index) in qualifications" :key="index">
+                      {{qualification.name}}
+                    </li>
+                  </ul>
+                </table>
+            </slide>
+
+            <slide>
           <h2 class="tool-title">技術（実務経験あり）</h2>
           <table class="tool-table">
             <ul class="tool-list">
@@ -22,7 +26,9 @@
               </li>
             </ul>
           </table>
+           </slide>
 
+            <slide>
           <h2 class="tool-light-title">技術（勉強中）</h2>
           <table class="tool-light-table">
             <ul class="tool-light-list">
@@ -31,15 +37,22 @@
               </li>
             </ul>
           </table>
-
+           </slide>
+          </carousel>
 
       </div>
   </div>
 </template>
 
 <script>
+import { Carousel, Slide } from 'vue-carousel';
+
 export default {
   name: 'skill',
+  components: {
+    Carousel,
+    Slide,
+  },
   data() {
     return {
       qualifications: [
@@ -84,8 +97,8 @@ export default {
   margin: auto;
   text-align: center;
   height: 100%;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .skill-title {
   font-size: 60px;
@@ -123,6 +136,7 @@ export default {
   margin: auto;
   border-radius: 5px;
   box-shadow: 0px 0px 10px 0px gray;
+  margin-bottom: 10px;
 }
 .tool-list {
   margin: auto;
