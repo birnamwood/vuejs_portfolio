@@ -105,7 +105,6 @@ export default {
 }
 
 .qualification-title {
-  margin-top: 20px;
   margin-bottom: 10px;
 }
 .qualification-table {
@@ -126,7 +125,6 @@ export default {
 }
 
 .tool-title {
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .tool-table {
@@ -148,7 +146,6 @@ export default {
 }
 
 .tool-light-title {
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .tool-light-table {
