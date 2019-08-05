@@ -66,6 +66,7 @@ header {
   transform: translateY(-3px);
   padding: 1em 1em 0.5em;
   color: #0f2018;
+  z-index: 9999;
 }
 
 .title {
