@@ -9,8 +9,8 @@ export default new Router({
   routes: [
     // {
     //   path: '/',
-    //   name: 'Mainview',
-    //   component: Mainview,
+    //   name: 'SkillQualification',
+    //   component: SkillQualification,
     // },
   ]
 })

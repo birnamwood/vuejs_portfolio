@@ -23,11 +23,11 @@
             </ul>
           </table>
 
-          <h2 class="tool-right-title">技術（勉強中）</h2>
-          <table class="tool-right-table">
-            <ul class="tool-right-list">
-              <li v-for="(toolright,index) in toolrights" :key="index">
-                {{toolright.name}}
+          <h2 class="tool-light-title">技術（勉強中）</h2>
+          <table class="tool-light-table">
+            <ul class="tool-light-list">
+              <li v-for="(toollight,index) in toollights" :key="index">
+                {{toollight.name}}
               </li>
             </ul>
           </table>
@@ -57,7 +57,7 @@ export default {
         { name: "VMware/vSphere"},
         { name: "HYPER-V"},
       ],
-      toolrights: [
+      toollights: [
         { name: "HTML/CSS"},
         { name: "javaScript/Vue.js"},
         { name: "Python/Django"},
@@ -133,11 +133,11 @@ export default {
   float: left;
 }
 
-.tool-right-title {
+.tool-light-title {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-.tool-right-table {
+.tool-light-table {
   width: 90%;
   font-size:20px;
   text-align: left;
@@ -145,10 +145,10 @@ export default {
   border-radius: 5px;
   box-shadow: 0px 0px 10px 0px gray;
 }
-.tool-right-list {
+.tool-light-list {
   margin: auto;
 }
-.tool-right-list li {
+.tool-light-list li {
   width: 45%;
   margin: 10px;
   float: left;
