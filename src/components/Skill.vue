@@ -6,9 +6,6 @@
           </div>
 
           <carousel :per-page="1"
-                    :autoplay=true
-                    :loop=true
-                    :nabigationEnabled=true
                     :speed="1000">
             <slide>
               <h2 class="tool-title">技術（実務経験あり）</h2>
