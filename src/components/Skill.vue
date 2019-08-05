@@ -5,39 +5,45 @@
             <i class="fas fa-tools" > Skill</i>
           </div>
 
-          <carousel :per-page="1">
+          <carousel :per-page="1"
+                    :autoplay=true
+                    :loop=true
+                    :nabigationEnabled=true
+                    :speed="1000">
             <slide>
-              <h2 class="qualification-title">資格</h2>
-                <table class="qualification-table">
-                  <ul class="qualification-list">
-                    <li v-for="(qualification,index) in qualifications" :key="index">
-                      {{qualification.name}}
-                    </li>
-                  </ul>
-                </table>
+              <h2 class="tool-title">技術（実務経験あり）</h2>
+              <table class="tool-table">
+                <ul class="tool-list">
+                  <li v-for="(tool,index) in tools" :key="index">
+                    {{tool.name}}
+                  </li>
+                </ul>
+              </table>
             </slide>
 
             <slide>
-          <h2 class="tool-title">技術（実務経験あり）</h2>
-          <table class="tool-table">
-            <ul class="tool-list">
-              <li v-for="(tool,index) in tools" :key="index">
-                {{tool.name}}
-              </li>
-            </ul>
-          </table>
+              <h2 class="tool-light-title">技術（勉強中）</h2>
+              <table class="tool-light-table">
+                <ul class="tool-light-list">
+                  <li v-for="(toollight,index) in toollights" :key="index">
+                    {{toollight.name}}
+                  </li>
+                </ul>
+              </table>
            </slide>
 
             <slide>
-          <h2 class="tool-light-title">技術（勉強中）</h2>
-          <table class="tool-light-table">
-            <ul class="tool-light-list">
-              <li v-for="(toollight,index) in toollights" :key="index">
-                {{toollight.name}}
-              </li>
-            </ul>
-          </table>
-           </slide>
+              <h2 class="qualification-title">資格</h2>
+              <table class="qualification-table">
+                <ul class="qualification-list">
+                  <li v-for="(qualification,index) in qualifications" :key="index">
+                      {{qualification.name}}
+                  </li>
+                </ul>
+              </table>
+            </slide>
+
+
           </carousel>
 
       </div>
@@ -69,13 +75,15 @@ export default {
         { name: "CENTOS 7"},
         { name: "VMware/vSphere"},
         { name: "HYPER-V"},
+        { name: "Readmine"},
       ],
       toollights: [
         { name: "HTML/CSS"},
         { name: "javaScript/Vue.js"},
         { name: "Python/Django"},
-        { name: "Ruby/Rails"},
-        { name: "ruby/Rails"},
+        { name: "Ruby/Ruby on Rails"},
+        { name: "Docker/Docker-compose"},
+        { name: "SQL"},
       ],
     }
   }
@@ -97,8 +105,7 @@ export default {
   margin: auto;
   text-align: center;
   height: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
 }
 .skill-title {
   font-size: 60px;
