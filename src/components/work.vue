@@ -26,11 +26,11 @@ export default {
         {
           name: "ポートフォリオ",
           image: PortfolioImage,
-          url: "localhost:8080",
+          url: "",
           src_site: "Github",
           src: "https://github.com/birnamwood/vuejs_portfolio",
           skill: "HTTPS/CSS/Vue.js",
-          text: "ポートフォリオ公開用サイトです。",
+          text: "ポートフォリオ公開用サイトです。使用ライブラリはvue-smoothscrollとvue-carouselです。",
         },
         {
           name: "検査結果照会システム",
