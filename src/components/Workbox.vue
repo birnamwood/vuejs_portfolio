@@ -53,7 +53,7 @@ export default {
 .imagebox {
   float:left;
   width: 50%;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .imagebox img {
   width: 60%;
