@@ -24,7 +24,7 @@ export default {
     return {
       name: "ｊ．ｙ",
       age: "29歳",
-      address: "京都府長岡京市",
+      address: "京都府",
       hobby: "バイク、旅行",
       introduction: "4年制大学の法学部を卒業後、医療系の会社で５年間社内SEをしていました。",
       introduction2: "IBMメインフレームでの基幹システム開発・保守、ActiveDirectoryなどのサーバー保守及び社内ネットワーク管理と一通りの経験があります。"
