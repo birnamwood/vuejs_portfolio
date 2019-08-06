@@ -6,8 +6,8 @@
         <img v-bind:src= "item.image" />
       </div>
       <div class="content">
-        <p>URL: <a v-bind:href="item.url">{{item.url}}</a><br></p>
-        <p>SOURCE: <a v-bind:href="item.src">Github</a><br></p>
+        <p>URL: <a v-bind:href="item.url" target="_blank">{{item.url}}</a><br></p>
+        <p>SOURCE: <a v-bind:href="item.src" target="_blank">{{item.src_site}}</a><br></p>
         <br>
         <p>使用言語等：{{item.skill}}</p><br>
         <p>{{item.text}}</p>

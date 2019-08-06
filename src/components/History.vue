@@ -64,6 +64,7 @@ export default {
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
   padding: 15px;
+  min-width: 150px;
 }
 
 .history-table tbody tr:nth-of-type(2n+1) {
