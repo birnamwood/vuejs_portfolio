@@ -13,7 +13,7 @@
 <script>
 import Workbox from './Workbox'
 import PortfolioImage from "@/assets/portfolio.png"
-import KensaImage from "@/assets/kensa.png"
+import NoImage from "@/assets/no_image.png"
 
 export default {
   name: 'work',
@@ -33,7 +33,7 @@ export default {
         },
         {
           name: "検査結果照会システム",
-          image: KensaImage,
+          image: NoImage,
           url: "",
           src: "",
           skill: "RPG Ⅳ/LongRange/iPhone",
