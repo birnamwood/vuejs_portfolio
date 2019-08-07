@@ -7,10 +7,12 @@ Vue.use(smoothScroll)
 
 export default new Router({
   routes: [
+    // { path: '*', component: App },
+    // { path: '*', component: NotFoundComponent },
     // {
     //   path: '/',
-    //   name: 'SkillQualification',
-    //   component: SkillQualification,
+    //   name: 'App',
+    //   component: App,
     // },
   ]
 })
